@@ -8,7 +8,7 @@ CORS(app)
 app.app_context().push()
 
 # app.config['SQLALCHEMY_DATABASE_URI'] = 'mysql://root:Wisesteward_5@localhost/db_to_do_list'
-app.config['SQLALCHEMY_DATABASE_URI'] = 'mysql://ugdrrcd7nbs8tkg9:HWj1DY5Q6QiJH6Y1VycK@bh3uua6gyywscmxtewnp-mysql.services.clever-cloud.com:3306/bh3uua6gyywscmxtewnp'
+app.config['SQLALCHEMY_DATABASE_URI'] = 'postgresql://ywaac_user01:TXb6u5oJiQM2Z85qV61frxeUnW79LgqH@dpg-cdu3uo1gp3jo9lm99p1g-a.oregon-postgres.render.com/ywaac_dbassignments'
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 
 
